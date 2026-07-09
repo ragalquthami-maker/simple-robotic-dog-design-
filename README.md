@@ -8,7 +8,7 @@ This is my initial mechanical design for a simple quadruped robot, done as cours
 
 The chassis is a flat rectangular base: 200mm long, 100mm wide, 15mm thick. I plan to 3D print it in PLA or cut it from thin acrylic. Total weight of the robot should stay around 800g to 1.2kg based on the motors I selected.
 
-![Overview](images/overview.jpeg)
+![overview](images/overview.jpeg)
 
 ## The legs
 
