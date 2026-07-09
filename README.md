@@ -1,5 +1,3 @@
-# simple-robotic-dog-design-
-Preliminary mechanical design for a simple quadruped robot
 # Simple Robotic Dog — Preliminary Mechanical Design
 
 This is my initial mechanical design for a simple quadruped robot, done as coursework. The main goal was to understand the basic mechanics that let a robot stand and walk.
@@ -8,13 +6,13 @@ This is my initial mechanical design for a simple quadruped robot, done as cours
 
 The chassis is a flat rectangular base: 200mm long, 100mm wide, 15mm thick. I plan to 3D print it in PLA or cut it from thin acrylic. Total weight of the robot should stay around 800g to 1.2kg based on the motors I selected.
 
-![overview](images/overview.jpeg)
+![Overview](Images/overview.jpeg)
 
 ## The legs
 
 Each leg has two parts connected at a knee: the femur (upper part, connects to the body at the hip) and the tibia (lower part, ends in the foot). I used a bent Z shape for the leg to simplify the joint control. There are four legs total, placed symmetrically at the corners of the body.
 
-![Leg close-up](images/leg-closeup.jpeg)
+![Leg close-up](Images/leg-closeup.jpeg)
 
 ## Joints and degrees of freedom
 
@@ -38,7 +36,7 @@ This value does not include dynamic loads from movement or leg angle. Adding a s
 
 The robot's center of gravity must stay within the support polygon formed by the legs touching the ground. The battery, the heaviest component, is placed at the center of the body to keep the weight balanced.
 
-![Top view](images/top-view.jpeg)
+![Top view](Images/top-view.jpeg)
 
 ## How it walks
 
